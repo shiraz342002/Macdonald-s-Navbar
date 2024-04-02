@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(https://i.pinimg.com/originals/83/2d/7f/832d7f9d027c708566e9acaab5f4656d.jpg);
+  background-color: #000000;
+  background-size: 1920px 1080px;
+  opacity: 1;
+}
+.mac {
+  width: 84px;
+  height: 67px;
+  position: relative;
+  right: 230px;
+}
+header {
+  height: 100px;
+  background-color: #262729;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  top: 32px;
+  font-size: 20px;
+}
+li a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  background-color: rgb(216, 235, 108);
+  transition: all 0.9s;
+}
+li a:hover::after {
+  width: 100%;
+}
+li a:hover {
+  color: yellow;
+  transition: 1s;
+}
+.search-btn {
+  /* display: flex; */
+  /* justify-self: flex-end; */
+  /* align-items: flex-end; */
+  position: relative;
+  left: 968px;
+  bottom: 3px;
+  top: -15px;
+  bottom: 45px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+.search-btn::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  background-color: rgb(216, 235, 108);
+  transition: all 0.9s;
+}
+.search-btn:hover::after {
+  width: 100%;
+}
+.search-btn:hover {
+  color: yellow;
+  transition: 1s;
+}
+
+.search-icon {
+  width: 25px;
+  color: rgb(255, 22, 22);
+  position: relative;
+  left: 830px;
+  bottom: 9px;
+}
+
+/* main{
+    display: flex;
+border: 2px solid red;
+height: calc(100vh - 100px);
+justify-content: center;
+align-items: center;
+width: 1014px;
+margin-left: 465px;
+} */
+h1 {
+  color: black;
+  font-size: 4rem;
+  font-family: "Anonymous Pro", monospace;
+  font-family: "Josefin Sans", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 344px;
+}
